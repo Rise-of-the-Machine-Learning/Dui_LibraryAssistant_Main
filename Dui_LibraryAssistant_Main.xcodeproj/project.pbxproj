@@ -15,6 +15,15 @@
 		E5EB3C2C29F8FF2D006A0444 /* Dui_LibraryAssistant_MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C2B29F8FF2D006A0444 /* Dui_LibraryAssistant_MainTests.swift */; };
 		E5EB3C3629F8FF2D006A0444 /* Dui_LibraryAssistant_MainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C3529F8FF2D006A0444 /* Dui_LibraryAssistant_MainUITests.swift */; };
 		E5EB3C3829F8FF2D006A0444 /* Dui_LibraryAssistant_MainUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C3729F8FF2D006A0444 /* Dui_LibraryAssistant_MainUITestsLaunchTests.swift */; };
+		E5EB3C4529F902D3006A0444 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C4429F902D3006A0444 /* MainMenuView.swift */; };
+		E5EB3C4729F90321006A0444 /* BeginAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C4629F90321006A0444 /* BeginAppView.swift */; };
+		E5EB3C4B29F9036B006A0444 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C4A29F9036B006A0444 /* SettingsView.swift */; };
+		E5EB3C4D29F9037E006A0444 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C4C29F9037E006A0444 /* AboutView.swift */; };
+		E5EB3C5629F9047E006A0444 /* HowToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C5529F9047E006A0444 /* HowToView.swift */; };
+		E5EB3C5829F904C2006A0444 /* TextSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C5729F904C2006A0444 /* TextSearchView.swift */; };
+		E5EB3C5A29F904EB006A0444 /* AudioSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C5929F904EB006A0444 /* AudioSearchView.swift */; };
+		E5EB3C5C29F90890006A0444 /* TitleEnteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C5B29F90890006A0444 /* TitleEnteredView.swift */; };
+		E5EB3C5E29F90BDC006A0444 /* GoToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C5D29F90BDC006A0444 /* GoToView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +55,15 @@
 		E5EB3C3129F8FF2D006A0444 /* Dui_LibraryAssistant_MainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dui_LibraryAssistant_MainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5EB3C3529F8FF2D006A0444 /* Dui_LibraryAssistant_MainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dui_LibraryAssistant_MainUITests.swift; sourceTree = "<group>"; };
 		E5EB3C3729F8FF2D006A0444 /* Dui_LibraryAssistant_MainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dui_LibraryAssistant_MainUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E5EB3C4429F902D3006A0444 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		E5EB3C4629F90321006A0444 /* BeginAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginAppView.swift; sourceTree = "<group>"; };
+		E5EB3C4A29F9036B006A0444 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E5EB3C4C29F9037E006A0444 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		E5EB3C5529F9047E006A0444 /* HowToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToView.swift; sourceTree = "<group>"; };
+		E5EB3C5729F904C2006A0444 /* TextSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSearchView.swift; sourceTree = "<group>"; };
+		E5EB3C5929F904EB006A0444 /* AudioSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSearchView.swift; sourceTree = "<group>"; };
+		E5EB3C5B29F90890006A0444 /* TitleEnteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleEnteredView.swift; sourceTree = "<group>"; };
+		E5EB3C5D29F90BDC006A0444 /* GoToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoToView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +114,9 @@
 		E5EB3C1729F8FF2C006A0444 /* Dui_LibraryAssistant_Main */ = {
 			isa = PBXGroup;
 			children = (
+				E5EB3C5029F903CF006A0444 /* Audio */,
+				E5EB3C4E29F903C3006A0444 /* Views */,
 				E5EB3C1829F8FF2C006A0444 /* AppDelegate.swift */,
-				E5EB3C1A29F8FF2C006A0444 /* ContentView.swift */,
 				E5EB3C1C29F8FF2C006A0444 /* Experience.rcproject */,
 				E5EB3C1E29F8FF2D006A0444 /* Assets.xcassets */,
 				E5EB3C2029F8FF2D006A0444 /* Preview Content */,
@@ -128,6 +147,30 @@
 				E5EB3C3729F8FF2D006A0444 /* Dui_LibraryAssistant_MainUITestsLaunchTests.swift */,
 			);
 			path = Dui_LibraryAssistant_MainUITests;
+			sourceTree = "<group>";
+		};
+		E5EB3C4E29F903C3006A0444 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5EB3C1A29F8FF2C006A0444 /* ContentView.swift */,
+				E5EB3C4429F902D3006A0444 /* MainMenuView.swift */,
+				E5EB3C4629F90321006A0444 /* BeginAppView.swift */,
+				E5EB3C5529F9047E006A0444 /* HowToView.swift */,
+				E5EB3C4C29F9037E006A0444 /* AboutView.swift */,
+				E5EB3C4A29F9036B006A0444 /* SettingsView.swift */,
+				E5EB3C5729F904C2006A0444 /* TextSearchView.swift */,
+				E5EB3C5929F904EB006A0444 /* AudioSearchView.swift */,
+				E5EB3C5B29F90890006A0444 /* TitleEnteredView.swift */,
+				E5EB3C5D29F90BDC006A0444 /* GoToView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5EB3C5029F903CF006A0444 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +303,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5EB3C5829F904C2006A0444 /* TextSearchView.swift in Sources */,
+				E5EB3C5E29F90BDC006A0444 /* GoToView.swift in Sources */,
+				E5EB3C4D29F9037E006A0444 /* AboutView.swift in Sources */,
+				E5EB3C4B29F9036B006A0444 /* SettingsView.swift in Sources */,
 				E5EB3C1B29F8FF2C006A0444 /* ContentView.swift in Sources */,
+				E5EB3C5C29F90890006A0444 /* TitleEnteredView.swift in Sources */,
+				E5EB3C4729F90321006A0444 /* BeginAppView.swift in Sources */,
 				E5EB3C1929F8FF2C006A0444 /* AppDelegate.swift in Sources */,
+				E5EB3C4529F902D3006A0444 /* MainMenuView.swift in Sources */,
+				E5EB3C5629F9047E006A0444 /* HowToView.swift in Sources */,
 				E5EB3C1D29F8FF2C006A0444 /* Experience.rcproject in Sources */,
+				E5EB3C5A29F904EB006A0444 /* AudioSearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
