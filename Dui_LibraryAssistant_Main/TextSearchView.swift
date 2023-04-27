@@ -13,12 +13,17 @@ struct TextSearchView: View {
     
     var body: some View {
         VStack{
+            Spacer()
             Text("Type in book you are looking for:")
+            Spacer()
             TextField("Enter name", text : $findBook)
                 .padding(50)
+            Spacer()
             Text("Are you looking for \(findBook)? - test")
+            Spacer()
             
             NavigationLink(destination:TitleEnteredView(findBook: $findBook)){Text("Submit")}
+            Spacer()
         }
     }
     /*

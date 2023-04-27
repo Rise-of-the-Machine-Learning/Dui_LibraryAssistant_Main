@@ -10,11 +10,14 @@ import SwiftUI
 struct BeginAppView: View {
     var body: some View {
         VStack{
+            Spacer()
             Text("How do you want to find your book?")
+            Spacer()
             
             NavigationLink(destination:TextSearchView()){ Text("Text")}
-            
+            Spacer()
             NavigationLink(destination:AudioSearchView()){ Text("Audio")}
+            Spacer()
         }
     }
 }

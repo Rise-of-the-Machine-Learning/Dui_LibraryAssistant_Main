@@ -1,5 +1,5 @@
 //
-//  AboutView.swift
+//  HowToView.swift
 //  Dui_LibraryAssistant_Main
 //
 //  Created by Ariah Sargent on 4/26/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct AboutView: View {
+struct HowToView: View {
     var body: some View {
-        Text("About")
+        Text("How to use Dui explaination here")
     }
 }
 
-struct AboutView_Previews: PreviewProvider {
+struct HowToView_Previews: PreviewProvider {
     static var previews: some View {
-        AboutView()
+        HowToView()
     }
 }

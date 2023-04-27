@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E585D1E429FA45EE00DD0BA1 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585D1E329FA45EE00DD0BA1 /* CustomARView.swift */; };
 		E5EB3C1929F8FF2C006A0444 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C1829F8FF2C006A0444 /* AppDelegate.swift */; };
 		E5EB3C1B29F8FF2C006A0444 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C1A29F8FF2C006A0444 /* ContentView.swift */; };
 		E5EB3C1D29F8FF2C006A0444 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C1C29F8FF2C006A0444 /* Experience.rcproject */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E585D1E329FA45EE00DD0BA1 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 		E5EB3C1529F8FF2C006A0444 /* Dui_LibraryAssistant_Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dui_LibraryAssistant_Main.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5EB3C1829F8FF2C006A0444 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5EB3C1A29F8FF2C006A0444 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,8 +116,17 @@
 		E5EB3C1729F8FF2C006A0444 /* Dui_LibraryAssistant_Main */ = {
 			isa = PBXGroup;
 			children = (
-				E5EB3C5029F903CF006A0444 /* Audio */,
-				E5EB3C4E29F903C3006A0444 /* Views */,
+				E5EB3C1A29F8FF2C006A0444 /* ContentView.swift */,
+				E585D1E329FA45EE00DD0BA1 /* CustomARView.swift */,
+				E5EB3C4429F902D3006A0444 /* MainMenuView.swift */,
+				E5EB3C4629F90321006A0444 /* BeginAppView.swift */,
+				E5EB3C5529F9047E006A0444 /* HowToView.swift */,
+				E5EB3C4C29F9037E006A0444 /* AboutView.swift */,
+				E5EB3C4A29F9036B006A0444 /* SettingsView.swift */,
+				E5EB3C5729F904C2006A0444 /* TextSearchView.swift */,
+				E5EB3C5929F904EB006A0444 /* AudioSearchView.swift */,
+				E5EB3C5B29F90890006A0444 /* TitleEnteredView.swift */,
+				E5EB3C5D29F90BDC006A0444 /* GoToView.swift */,
 				E5EB3C1829F8FF2C006A0444 /* AppDelegate.swift */,
 				E5EB3C1C29F8FF2C006A0444 /* Experience.rcproject */,
 				E5EB3C1E29F8FF2D006A0444 /* Assets.xcassets */,
@@ -147,30 +158,6 @@
 				E5EB3C3729F8FF2D006A0444 /* Dui_LibraryAssistant_MainUITestsLaunchTests.swift */,
 			);
 			path = Dui_LibraryAssistant_MainUITests;
-			sourceTree = "<group>";
-		};
-		E5EB3C4E29F903C3006A0444 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				E5EB3C1A29F8FF2C006A0444 /* ContentView.swift */,
-				E5EB3C4429F902D3006A0444 /* MainMenuView.swift */,
-				E5EB3C4629F90321006A0444 /* BeginAppView.swift */,
-				E5EB3C5529F9047E006A0444 /* HowToView.swift */,
-				E5EB3C4C29F9037E006A0444 /* AboutView.swift */,
-				E5EB3C4A29F9036B006A0444 /* SettingsView.swift */,
-				E5EB3C5729F904C2006A0444 /* TextSearchView.swift */,
-				E5EB3C5929F904EB006A0444 /* AudioSearchView.swift */,
-				E5EB3C5B29F90890006A0444 /* TitleEnteredView.swift */,
-				E5EB3C5D29F90BDC006A0444 /* GoToView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		E5EB3C5029F903CF006A0444 /* Audio */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +302,7 @@
 				E5EB3C5629F9047E006A0444 /* HowToView.swift in Sources */,
 				E5EB3C1D29F8FF2C006A0444 /* Experience.rcproject in Sources */,
 				E5EB3C5A29F904EB006A0444 /* AudioSearchView.swift in Sources */,
+				E585D1E429FA45EE00DD0BA1 /* CustomARView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

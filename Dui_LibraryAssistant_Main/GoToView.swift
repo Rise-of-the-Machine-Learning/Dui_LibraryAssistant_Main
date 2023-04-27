@@ -10,8 +10,14 @@ import SwiftUI
 struct GoToView: View {
     var body: some View {
         VStack{
+            Spacer()
             Text("Shows where in the library to go to to scan image anchor for Dui")
-            NavigationLink(destination: ContentView()) { Text("Ready to scan!")}
+                .padding(30)
+            Spacer()
+            NavigationStack{
+                NavigationLink(destination: ContentView()) { Text("Ready to scan!")}
+                Spacer()
+            }
         }
     }
 }
