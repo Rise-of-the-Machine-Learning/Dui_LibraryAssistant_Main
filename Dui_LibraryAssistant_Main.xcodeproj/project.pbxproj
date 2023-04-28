@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABAE172A29FB552A0022A117 /* ScanImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAE172929FB552A0022A117 /* ScanImageView.swift */; };
+		ABAE172C29FB555A0022A117 /* TextPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAE172B29FB555A0022A117 /* TextPreviewView.swift */; };
+		ABAE172E29FB55600022A117 /* ScanAndRecognizeTextApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAE172D29FB55600022A117 /* ScanAndRecognizeTextApp.swift */; };
+		ABAE173029FB55680022A117 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAE172F29FB55680022A117 /* Model.swift */; };
+		ABAE173229FB556D0022A117 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAE173129FB556D0022A117 /* ScannerView.swift */; };
+		ABAE173429FB55730022A117 /* TextRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAE173329FB55730022A117 /* TextRecognition.swift */; };
 		E585D1E429FA45EE00DD0BA1 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585D1E329FA45EE00DD0BA1 /* CustomARView.swift */; };
 		E5EB3C1929F8FF2C006A0444 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C1829F8FF2C006A0444 /* AppDelegate.swift */; };
 		E5EB3C1B29F8FF2C006A0444 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C1A29F8FF2C006A0444 /* ContentView.swift */; };
@@ -45,6 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ABAE172929FB552A0022A117 /* ScanImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanImageView.swift; sourceTree = "<group>"; };
+		ABAE172B29FB555A0022A117 /* TextPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextPreviewView.swift; path = "../../../../Downloads/TextScanner-main/ScanAndRecognizeText/TextPreviewView.swift"; sourceTree = "<group>"; };
+		ABAE172D29FB55600022A117 /* ScanAndRecognizeTextApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScanAndRecognizeTextApp.swift; path = "../../../../Downloads/TextScanner-main/ScanAndRecognizeText/ScanAndRecognizeTextApp.swift"; sourceTree = "<group>"; };
+		ABAE172F29FB55680022A117 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = "../../../../Downloads/TextScanner-main/ScanAndRecognizeText/Model.swift"; sourceTree = "<group>"; };
+		ABAE173129FB556D0022A117 /* ScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScannerView.swift; path = "../../../../Downloads/TextScanner-main/ScanAndRecognizeText/ScannerView.swift"; sourceTree = "<group>"; };
+		ABAE173329FB55730022A117 /* TextRecognition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextRecognition.swift; path = "../../../../Downloads/TextScanner-main/ScanAndRecognizeText/TextRecognition.swift"; sourceTree = "<group>"; };
 		E585D1E329FA45EE00DD0BA1 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 		E5EB3C1529F8FF2C006A0444 /* Dui_LibraryAssistant_Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dui_LibraryAssistant_Main.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5EB3C1829F8FF2C006A0444 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +140,12 @@
 				E5EB3C5B29F90890006A0444 /* TitleEnteredView.swift */,
 				E5EB3C5D29F90BDC006A0444 /* GoToView.swift */,
 				E5EB3C1829F8FF2C006A0444 /* AppDelegate.swift */,
+				ABAE172929FB552A0022A117 /* ScanImageView.swift */,
+				ABAE172B29FB555A0022A117 /* TextPreviewView.swift */,
+				ABAE172D29FB55600022A117 /* ScanAndRecognizeTextApp.swift */,
+				ABAE172F29FB55680022A117 /* Model.swift */,
+				ABAE173129FB556D0022A117 /* ScannerView.swift */,
+				ABAE173329FB55730022A117 /* TextRecognition.swift */,
 				E5EB3C1C29F8FF2C006A0444 /* Experience.rcproject */,
 				E5EB3C1E29F8FF2D006A0444 /* Assets.xcassets */,
 				E5EB3C2029F8FF2D006A0444 /* Preview Content */,
@@ -291,18 +309,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5EB3C5829F904C2006A0444 /* TextSearchView.swift in Sources */,
+				ABAE172C29FB555A0022A117 /* TextPreviewView.swift in Sources */,
 				E5EB3C5E29F90BDC006A0444 /* GoToView.swift in Sources */,
 				E5EB3C4D29F9037E006A0444 /* AboutView.swift in Sources */,
 				E5EB3C4B29F9036B006A0444 /* SettingsView.swift in Sources */,
 				E5EB3C1B29F8FF2C006A0444 /* ContentView.swift in Sources */,
 				E5EB3C5C29F90890006A0444 /* TitleEnteredView.swift in Sources */,
+				ABAE173429FB55730022A117 /* TextRecognition.swift in Sources */,
 				E5EB3C4729F90321006A0444 /* BeginAppView.swift in Sources */,
 				E5EB3C1929F8FF2C006A0444 /* AppDelegate.swift in Sources */,
+				ABAE173229FB556D0022A117 /* ScannerView.swift in Sources */,
 				E5EB3C4529F902D3006A0444 /* MainMenuView.swift in Sources */,
+				ABAE173029FB55680022A117 /* Model.swift in Sources */,
 				E5EB3C5629F9047E006A0444 /* HowToView.swift in Sources */,
 				E5EB3C1D29F8FF2C006A0444 /* Experience.rcproject in Sources */,
+				ABAE172E29FB55600022A117 /* ScanAndRecognizeTextApp.swift in Sources */,
 				E5EB3C5A29F904EB006A0444 /* AudioSearchView.swift in Sources */,
 				E585D1E429FA45EE00DD0BA1 /* CustomARView.swift in Sources */,
+				ABAE172A29FB552A0022A117 /* ScanImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dui_LibraryAssistant_Main/Preview Content\"";
-				DEVELOPMENT_TEAM = QVTD9P3J8G;
+				DEVELOPMENT_TEAM = 7KJTKUN2RV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -476,7 +500,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ariahsargent.Dui-LibraryAssistant-Main";
+				PRODUCT_BUNDLE_IDENTIFIER = "ariahsargent.Dui-LibraryAssistant-Main1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -492,7 +516,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dui_LibraryAssistant_Main/Preview Content\"";
-				DEVELOPMENT_TEAM = QVTD9P3J8G;
+				DEVELOPMENT_TEAM = 7KJTKUN2RV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -507,7 +531,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ariahsargent.Dui-LibraryAssistant-Main";
+				PRODUCT_BUNDLE_IDENTIFIER = "ariahsargent.Dui-LibraryAssistant-Main1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
