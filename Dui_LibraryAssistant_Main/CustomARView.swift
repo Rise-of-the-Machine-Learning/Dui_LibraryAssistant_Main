@@ -23,6 +23,8 @@ class CustomARView: ARView {
         //picks up on images specified in assests folder
         config.detectionImages = referenceImages
         
+        config.maximumNumberOfTrackedImages = 0
+        
         config.sceneReconstruction = .mesh
         self.environment.sceneUnderstanding.options = .occlusion
         
