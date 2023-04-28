@@ -5,7 +5,10 @@
   },
   "resources" : [
     {
-      "filename" : "20230420_152313.arreferenceimage"
+      "filename" : "bookmarkImage.arreferenceimage"
+    },
+    {
+      "filename" : "bookshelfImage.arreferenceimage"
     }
   ]
 }
