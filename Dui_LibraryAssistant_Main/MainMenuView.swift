@@ -8,60 +8,71 @@
 import SwiftUI
 
 struct MainMenuView: View {
+    
     var body: some View {
-        ZStack{
-            Spacer()
-            VStack{
-                
+        
+        VStack{
+            
                 Text("Dui")
+                .font(.largeTitle.weight(.heavy))
                 Text("Library Assistant")
-                
-                Spacer()
-               
+                .font(.title2)
+            
                 NavigationStack{
                     NavigationLink(destination: BeginAppView()){ Text("Begin")
-                            .background(.red)
-                            .foregroundStyle(.black)
-                            .padding(15)
+                            .cornerRadius(15)
+                            .padding(.vertical, 30)
+                            .padding(.horizontal, 120)
                             .font(.largeTitle.weight(.heavy))
+                            .foregroundColor(.white)
                     }
-                    .background(.red)
-                    .foregroundStyle(.white)
-                    .padding(20)
-                    .font(.largeTitle.weight(.medium))
+                    .background(Color(red: 0.071, green: 0.325, blue: 0.463))
+                    .cornerRadius(15)
+                    .padding(.maximum(20,0))
+                    //.padding(20)
                     
-                    Spacer()
-                    
-                    Spacer()
-                    NavigationLink(destination: HowToView()){ Text("How To")}
-                        .multilineTextAlignment(.center)
-                        .foregroundColor(.black)
-                        .font(.title2.weight(.light))
-                        .padding(20)
-                    Spacer()
-                    NavigationLink(destination: AboutView()){ Text("About")}
-                        .multilineTextAlignment(.center)
-                        .foregroundColor(.black)
-                        .font(.title2.weight(.light))
-                        .padding(20)
-                    Spacer()
+                    NavigationLink(destination: HowToView()){ Text("How To")
+                            .cornerRadius(15)
+                            .padding(.vertical, 30)
+                            .padding(.horizontal, 110)
+                            .font(.largeTitle.weight(.heavy))
+                            .foregroundColor(.white)
+                    }
+                    .background(Color(red: 0.071, green: 0.325, blue: 0.463)) // #125376
+                        .cornerRadius(15)
+                        .padding(.maximum(20,0))
+
+                    NavigationLink(destination: AboutView()){ Text("About")
+                            .cornerRadius(15)
+                            .padding(.vertical, 30)
+                            .padding(.horizontal, 120)
+                            .font(.largeTitle.weight(.heavy))
+                            .foregroundColor(.white)
+                    }
+                        .background(Color(red: 0.071, green: 0.325, blue: 0.463))
+                        .cornerRadius(15)
+                        .padding(.maximum(20,0))
+                    NavigationLink(destination: SettingsView()){ Text("Settings")
+                            .cornerRadius(15)
+                            .padding(.vertical, 30)
+                            .padding(.horizontal, 100)
+                            .font(.largeTitle.weight(.heavy))
+                            .foregroundColor(.white)
+                    }
+                    .background(Color(red: 0.729, green: 0.431, blue: 0.075)) // #ba6e13
+                        .cornerRadius(15)
+                        .padding(.maximum(20,0))
+    
                 }
-                /*
-                NavigationLink(destination: SettingsView()){ Text("Settings")}
-                    .multilineTextAlignment(.center)
-                    .foregroundColor(.black)
-                    .font(.title2.weight(.light))
-                    .padding(20)*/
                 
-            }
-            
         }
+        .background(Color.green.edgesIgnoringSafeArea(.all))
     }
+      
 }
 
-/*
 struct MainMenuView_Previews: PreviewProvider {
     static var previews: some View {
         MainMenuView()
     }
-}*/
+}
