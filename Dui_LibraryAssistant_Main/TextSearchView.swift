@@ -11,6 +11,8 @@ struct TextSearchView: View {
     
 @State private var findBook = ""
     
+    let suggestedBooks = ["The Faith of a Heretic", "philosophy of religion", "Experience and God"]
+    
     var body: some View {
         VStack{
             Spacer()

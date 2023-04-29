@@ -14,7 +14,7 @@ struct TitleEnteredView: View {
     var body: some View {
         VStack{
             Spacer()
-            Text("Are you searching for /(findBook)")
+            Text("Are you searching for \(findBook)")
             Spacer()
             NavigationLink(destination: GoToView()) { Text("Yes")}
             Spacer()
