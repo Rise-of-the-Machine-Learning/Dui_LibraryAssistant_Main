@@ -19,7 +19,7 @@ struct GoToView: View {
                 Spacer()
             }
             NavigationStack{
-                NavigationLink(destination: TextSearchView()) { Text("Ready to scan!")}
+                NavigationLink(destination: TextSearchView()) { Text("Book Search Test")}
                 Spacer()
             }
         }
