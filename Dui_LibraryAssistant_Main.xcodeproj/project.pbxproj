@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89A5E1D729FE2CAB00108999 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A5E1D629FE2CAB00108999 /* SpeechRecognizer.swift */; };
 		D590DBC529FD195A006EE7C2 /* ScanBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D590DBC429FD195A006EE7C2 /* ScanBookView.swift */; };
 		D590DBC929FD1ABA006EE7C2 /* Scan Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D590DBC829FD1ABA006EE7C2 /* Scan Button.swift */; };
 		E5EB3C1929F8FF2C006A0444 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C1829F8FF2C006A0444 /* AppDelegate.swift */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89A5E1D629FE2CAB00108999 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		89A5E1D829FE2FBE00108999 /* Dui-LibraryAssistant-Main-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dui-LibraryAssistant-Main-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D590DBC429FD195A006EE7C2 /* ScanBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanBookView.swift; sourceTree = "<group>"; };
 		D590DBC829FD1ABA006EE7C2 /* Scan Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scan Button.swift"; sourceTree = "<group>"; };
 		E5EB3C1529F8FF2C006A0444 /* Dui_LibraryAssistant_Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dui_LibraryAssistant_Main.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +121,7 @@
 		E5EB3C1729F8FF2C006A0444 /* Dui_LibraryAssistant_Main */ = {
 			isa = PBXGroup;
 			children = (
+				89A5E1D829FE2FBE00108999 /* Dui-LibraryAssistant-Main-Info.plist */,
 				E5EB3C1A29F8FF2C006A0444 /* ContentView.swift */,
 				E5EB3C4429F902D3006A0444 /* MainMenuView.swift */,
 				E5EB3C4629F90321006A0444 /* BeginAppView.swift */,
@@ -129,6 +133,7 @@
 				E5EB3C5B29F90890006A0444 /* TitleEnteredView.swift */,
 				E5EB3C5D29F90BDC006A0444 /* GoToView.swift */,
 				E5EB3C1829F8FF2C006A0444 /* AppDelegate.swift */,
+				89A5E1D629FE2CAB00108999 /* SpeechRecognizer.swift */,
 				D590DBC429FD195A006EE7C2 /* ScanBookView.swift */,
 				D590DBC829FD1ABA006EE7C2 /* Scan Button.swift */,
 				E5EB3C1C29F8FF2C006A0444 /* Experience.rcproject */,
@@ -298,6 +303,7 @@
 				D590DBC529FD195A006EE7C2 /* ScanBookView.swift in Sources */,
 				E5EB3C4D29F9037E006A0444 /* AboutView.swift in Sources */,
 				E5EB3C4B29F9036B006A0444 /* SettingsView.swift in Sources */,
+				89A5E1D729FE2CAB00108999 /* SpeechRecognizer.swift in Sources */,
 				E5EB3C1B29F8FF2C006A0444 /* ContentView.swift in Sources */,
 				E5EB3C5C29F90890006A0444 /* TitleEnteredView.swift in Sources */,
 				E5EB3C4729F90321006A0444 /* BeginAppView.swift in Sources */,
@@ -468,7 +474,10 @@
 				DEVELOPMENT_TEAM = 7KJTKUN2RV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dui-LibraryAssistant-Main-Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Dui will use your microphone to search for a book with voice.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Dui will use speech recognition to turn voice into a searchable format.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
@@ -500,7 +509,10 @@
 				DEVELOPMENT_TEAM = 7KJTKUN2RV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dui-LibraryAssistant-Main-Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Dui will use your microphone to search for a book with voice.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Dui will use speech recognition to turn voice into a searchable format.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
