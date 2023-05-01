@@ -9,15 +9,37 @@ import SwiftUI
 
 struct BeginAppView: View {
     var body: some View {
-        VStack{
-            Spacer()
-            Text("How do you want to find your book?")
-            Spacer()
-            
-            NavigationLink(destination:TextSearchView()){ Text("Text")}
-            Spacer()
-            NavigationLink(destination:AudioSearchView()){ Text("Audio")}
-            Spacer()
+        ZStack {
+            Color(red: 0.99, green: 0.96, blue: 0.9)
+                .ignoresSafeArea()
+            VStack{
+                Spacer()
+                Text("How do you want to find your book?")
+                    .font(.largeTitle)
+                    .multilineTextAlignment(.center)
+                Spacer()
+                
+                NavigationLink(destination:AudioSearchView()){
+                    Image("icon_mic2")
+                        .resizable()
+                        .frame(width:100, height:100)
+                }
+                Text("Audio")
+                    .font(.largeTitle)
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(Color.black)
+                Spacer()
+                NavigationLink(destination:TextSearchView()){
+                    Image("Keyboard")
+                        .resizable()
+                        .frame(width:200, height:100)
+                }
+                Text("Text")
+                    .font(.largeTitle)
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(Color.black)
+                Spacer()
+            }
         }
     }
 }
