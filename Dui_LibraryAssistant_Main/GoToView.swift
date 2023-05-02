@@ -19,6 +19,7 @@ struct GoToView: View {
                 Spacer()
             }
             NavigationStack{
+                NavigationLink(destination: ScanBookView()) { Text("Book Search Test")}
                 NavigationLink(destination: AudioSearchView()) { Text("Audio Search Test")}
                 Spacer()
             }
@@ -26,8 +27,4 @@ struct GoToView: View {
     }
 }
 
-struct GoToView_Previews: PreviewProvider {
-    static var previews: some View {
-        GoToView()
-    }
-}
+
