@@ -27,10 +27,10 @@ struct MainMenuView: View {
                             .font(.largeTitle.weight(.heavy))
                             .foregroundColor(.white)
                     }
-                    .background(Color(red: 0.071, green: 0.325, blue: 0.463))
+                    .background(Color(red: 0.62, green: 0.71, blue: 0.07))
+                    //#9EB512
                     .cornerRadius(15)
                     .padding(.maximum(20,0))
-                    //.padding(20)
                     
                     NavigationLink(destination: HowToView()){ Text("How To")
                             .cornerRadius(15)
@@ -39,7 +39,7 @@ struct MainMenuView: View {
                             .font(.largeTitle.weight(.heavy))
                             .foregroundColor(.white)
                     }
-                    .background(Color(red: 0.071, green: 0.325, blue: 0.463)) // #125376
+                    .background(Color(red: 0.44, green: 0.05, blue: 0.48)) // #700E7A
                     .cornerRadius(15)
                     .padding(.maximum(20,0))
                     
