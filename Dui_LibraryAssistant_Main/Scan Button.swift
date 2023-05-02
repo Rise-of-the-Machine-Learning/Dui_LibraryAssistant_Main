@@ -2,7 +2,7 @@
 //  Scan Button.swift
 //  Dui_LibraryAssistant_Main
 //
-//  Created by Allison Dalton on 4/29/23.
+//  Created by Hayden Dalton on 4/29/23.
 //
 
 import SwiftUI
@@ -10,7 +10,7 @@ import SwiftUI
 struct ScanButton: UIViewRepresentable {
   @Binding var text: String
   @Binding var title: String
-
+    
   func makeUIView(context: Context) -> UIButton {
     let textFromCamera = UIAction.captureTextFromCamera(
       responder: context.coordinator,
@@ -42,9 +42,3 @@ struct ScanButton: UIViewRepresentable {
   }
 }
 
-struct ScanButton_Previews: PreviewProvider {
-  static var previews: some View {
-    ScanButton(text: .constant(""), title: .constant(""))
-      .previewLayout(.sizeThatFits)
-  }
-}
