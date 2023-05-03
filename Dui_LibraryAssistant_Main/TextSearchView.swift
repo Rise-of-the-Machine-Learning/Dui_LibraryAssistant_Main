@@ -10,7 +10,6 @@ import SwiftUI
 struct TextSearchView: View {
     
     @State private var findBook = ""
-    @State private var titleSubmit = false
     
     let suggestedBooks = ["The Faith of a Heretic", "philosophy of religion", "Experience and God"]
     
@@ -32,29 +31,31 @@ struct TextSearchView: View {
                     .font(.title)
                 Spacer()
                 
-                Button("Submit"){
-                    titleSubmit = true
-                    //NavigationLink(destination: BeginAppView())
-                    //{
-                }//}
-                .font(.title)
-                
-                
-                //(destination: BeginAppView())
-                Spacer()
+                NavigationLink(destination: TitleEnteredView(findBook: Binding(projectedValue: $findBook)))
+                {
+                    Text("Submit")
+                        .cornerRadius(15)
+                        .padding(.vertical, 15)
+                        .padding(.horizontal, 100)
+                        .font(.largeTitle.weight(.heavy))
+                        .foregroundColor(.white)
+                }
+                .background(Color(red: 0.62, green: 0.71, blue: 0.07))
+                //#9EB512
+                .cornerRadius(15)
+                .padding(.maximum(10,0))
+                .offset(y: -130)
+               
             }
         }
-        .navigationDestination(isPresented: $titleSubmit) {
-            TitleEnteredView(findBook: $findBook)
-        }
-        .navigationTitle("My Favorite Color")
+      
     }
 }
   
-
+/*
     struct TextSearchView_Previews: PreviewProvider {
         static var previews: some View {
             TextSearchView()
         }
     }
-
+*/

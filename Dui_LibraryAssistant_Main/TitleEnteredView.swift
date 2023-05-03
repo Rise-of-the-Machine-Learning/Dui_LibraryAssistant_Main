@@ -54,6 +54,11 @@ struct TitleEnteredView: View {
     }
 }
 
+//goes to page to show where book is located in library
+//first by floor     -     by section/room    -    by shelf
+//directs user to scan QR code of shelf
+//AR view to search for book!
+
 /*
  struct TitleEnteredView_Preview: PreviewProvider {
  static var previews: some View {

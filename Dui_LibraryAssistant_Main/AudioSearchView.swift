@@ -17,6 +17,7 @@ struct AudioSearchView: View {
             Color(red: 0.99, green: 0.96, blue: 0.9)
                 .ignoresSafeArea()
             VStack {
+                Spacer()
                 Text("Please say what book you are looking for.")
                     .font(.largeTitle)
                     .multilineTextAlignment(.center)
@@ -32,6 +33,7 @@ struct AudioSearchView: View {
                 Image(isRecording ? "icon_mic2" : "icon_mic")
                     .resizable()
                     .frame(width:100, height:200)
+                Spacer()
                 Button(action: {
                     if !isRecording {
                         speechRecognizer.transcribe()
@@ -48,15 +50,17 @@ struct AudioSearchView: View {
                         .font(.largeTitle)
                         .foregroundColor(.white)
                         .bold()
-                        .padding()
+                        .padding(.horizontal, 120)
+                        .padding(.vertical, 15)
                         .background(isRecording ? Color(red: 0.7, green: 0.4, blue: 0.1) : Color(red: 0.071, green: 0.325, blue: 0.463))
-                        .cornerRadius(10)
+                        .cornerRadius(15)
+                    
                 }
                 
                 //more passing the title
                 NavigationLink(destination: TitleEnteredView(findBook: $title)){ Text("Search")
                             .cornerRadius(15)
-                            .padding(.vertical, 30)
+                            .padding(.vertical, 15)
                             .padding(.horizontal, 110)
                             .font(.largeTitle.weight(.heavy))
                             .foregroundColor(.white)
