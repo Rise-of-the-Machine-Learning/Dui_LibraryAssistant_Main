@@ -31,7 +31,7 @@ struct AudioSearchView: View {
                 Spacer()
                 Image(isRecording ? "icon_mic2" : "icon_mic")
                     .resizable()
-                    .frame(width:100, height:100)
+                    .frame(width:100, height:200)
                 Button(action: {
                     if !isRecording {
                         speechRecognizer.transcribe()

@@ -28,4 +28,10 @@ struct TitleEnteredView: View {
     }
 }
 
-
+/*
+ struct TitleEnteredView_Preview: PreviewProvider {
+ static var previews: some View {
+ TitleEnteredView()
+ }
+ }
+ */
