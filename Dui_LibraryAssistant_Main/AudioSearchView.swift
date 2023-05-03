@@ -49,7 +49,7 @@ struct AudioSearchView: View {
                         .foregroundColor(.white)
                         .bold()
                         .padding()
-                        .background(isRecording ? Color(red: 0.7, green: 0.4, blue: 0.1) : Color(red: 0.1, green: 0.4, blue: 0.5))
+                        .background(isRecording ? Color(red: 0.7, green: 0.4, blue: 0.1) : Color(red: 0.071, green: 0.325, blue: 0.463))
                         .cornerRadius(10)
                 }
                 
@@ -61,8 +61,7 @@ struct AudioSearchView: View {
                             .font(.largeTitle.weight(.heavy))
                             .foregroundColor(.white)
                     }
-                //Make dis the other color
-                    .background(Color(red: 0.071, green: 0.325, blue: 0.463)) // #125376
+                    .background(Color(red: 0.44, green: 0.05, blue: 0.48))
                         .cornerRadius(15)
                         .padding(.maximum(20,0))
                 
