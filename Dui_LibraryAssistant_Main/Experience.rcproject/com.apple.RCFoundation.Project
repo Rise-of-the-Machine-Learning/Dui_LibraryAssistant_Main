@@ -165,6 +165,84 @@
                     }
                   ],
                   "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "target" : [
+
+                                          ],
+                                          "userIdentifier" : "toBoxSelect"
+                                        },
+                                        "name" : {
+                                          "type" : "custom"
+                                        }
+                                      },
+                                      "identifier" : "33D16360-3D3B-403B-9745-34112B74D301",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "970DEBDF-81CB-4B43-931F-1D69967860B9",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.49019607901573181,
+                        0.7450980544090271,
+                        0.94901961088180542,
+                        1
+                      ],
+                      "identifier" : "F6EE64D5-9952-421F-ACFA-729CC3FE1EC2",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "toBoxSelect",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "5E401B52-B9A4-4FB3-AA3A-697A43230251"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "CD34651C-3A9E-4941-90AB-A15B35FB69D7",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
                 }
               ],
               "gravity" : [
@@ -8816,21 +8894,21 @@
               "title" : "initial",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.092092648148536682,
-                  -1.0256059823632313e-07,
-                  -0.99575042724609375,
+                  0.53109973669052124,
+                  -1.0321519994249684e-07,
+                  -0.84730923175811768,
                   0,
-                  0.15097732841968536,
-                  0.98843854665756226,
-                  0.013963090255856514,
+                  -0.043346144258975983,
+                  0.99869054555892944,
+                  -0.027169868350028992,
                   0,
-                  0.9842381477355957,
-                  -0.15162163972854614,
-                  0.09102814644575119,
+                  0.84619969129562378,
+                  0.051157519221305847,
+                  0.53040456771850586,
                   0,
-                  3.2163143157958984,
-                  -0.65763425827026367,
-                  -1.6749268770217896,
+                  2.6673340797424316,
+                  0.36057931184768677,
+                  -0.34241259098052979,
                   1
                 ],
                 "sceneTransform" : [
