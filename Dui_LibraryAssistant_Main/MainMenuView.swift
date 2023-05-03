@@ -13,13 +13,17 @@ struct MainMenuView: View {
         ZStack{
             Color(red: 0.99, green: 0.96, blue: 0.9)
                 .ignoresSafeArea()
-         
+                
+            VStack{
+                Image("dui_logo")
+                    .resizable()
+                    
                 Text("Dui")
                     .font(.largeTitle.weight(.heavy))
                 Text("Library Assistant")
                     .font(.title2)
-                
-                NavigationStack{
+                //NavigationStack{
+                    
                     NavigationLink(destination: BeginAppView()){ Text("Begin")
                             .cornerRadius(15)
                             .padding(.vertical, 30)
