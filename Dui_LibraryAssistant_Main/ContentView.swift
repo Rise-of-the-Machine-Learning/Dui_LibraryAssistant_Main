@@ -62,9 +62,6 @@ struct ARViewContainer: UIViewRepresentable {
     func makeCoordinator() -> Coordinator {
         Coordinator()
     }
-    
-    
-    
 }
 
 class Coordinator:NSObject, ARSessionDelegate
@@ -88,14 +85,14 @@ class Coordinator:NSObject, ARSessionDelegate
                 
             }
         }
-        
-       
     }
     
     func foundShelf(_ entity: Entity?) {
         //guard let entity = entity else { return }
-        //do something with entity
-        
+        //do something with entity/*
+        //let nextARView = ScanBookView(name: "ScanBookView")
+        //let viewController = nextARView.instantiateViewController(withIdentifier: "ScanBookView") as! UIView
+        //self.navigationController?.pushViewController(viewController, animated: true)
     }
     
     override init() {

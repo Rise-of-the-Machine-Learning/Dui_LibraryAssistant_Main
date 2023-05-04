@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		89A5E1D729FE2CAB00108999 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A5E1D629FE2CAB00108999 /* SpeechRecognizer.swift */; };
 		D590DBC529FD195A006EE7C2 /* ScanBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D590DBC429FD195A006EE7C2 /* ScanBookView.swift */; };
-		D590DBC929FD1ABA006EE7C2 /* Scan Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D590DBC829FD1ABA006EE7C2 /* Scan Button.swift */; };
+		D590DBC929FD1ABA006EE7C2 /* ScanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D590DBC829FD1ABA006EE7C2 /* ScanButton.swift */; };
 		E556747A2A0346FA00399FB6 /* AtAnchorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55674792A0346FA00399FB6 /* AtAnchorView.swift */; };
 		E5EB3C1929F8FF2C006A0444 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C1829F8FF2C006A0444 /* AppDelegate.swift */; };
 		E5EB3C1B29F8FF2C006A0444 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB3C1A29F8FF2C006A0444 /* ContentView.swift */; };
@@ -51,7 +51,7 @@
 		89A5E1D629FE2CAB00108999 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		89A5E1D829FE2FBE00108999 /* Dui-LibraryAssistant-Main-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dui-LibraryAssistant-Main-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D590DBC429FD195A006EE7C2 /* ScanBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanBookView.swift; sourceTree = "<group>"; };
-		D590DBC829FD1ABA006EE7C2 /* Scan Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scan Button.swift"; sourceTree = "<group>"; };
+		D590DBC829FD1ABA006EE7C2 /* ScanButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanButton.swift; sourceTree = "<group>"; };
 		E55674792A0346FA00399FB6 /* AtAnchorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtAnchorView.swift; sourceTree = "<group>"; };
 		E5EB3C1529F8FF2C006A0444 /* Dui_LibraryAssistant_Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dui_LibraryAssistant_Main.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5EB3C1829F8FF2C006A0444 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 				E5EB3C1829F8FF2C006A0444 /* AppDelegate.swift */,
 				89A5E1D629FE2CAB00108999 /* SpeechRecognizer.swift */,
 				D590DBC429FD195A006EE7C2 /* ScanBookView.swift */,
-				D590DBC829FD1ABA006EE7C2 /* Scan Button.swift */,
+				D590DBC829FD1ABA006EE7C2 /* ScanButton.swift */,
 				E5EB3C1C29F8FF2C006A0444 /* Experience.rcproject */,
 				E5EB3C1E29F8FF2D006A0444 /* Assets.xcassets */,
 				E5EB3C2029F8FF2D006A0444 /* Preview Content */,
@@ -312,7 +312,7 @@
 				E556747A2A0346FA00399FB6 /* AtAnchorView.swift in Sources */,
 				E5EB3C4729F90321006A0444 /* BeginAppView.swift in Sources */,
 				E5EB3C1929F8FF2C006A0444 /* AppDelegate.swift in Sources */,
-				D590DBC929FD1ABA006EE7C2 /* Scan Button.swift in Sources */,
+				D590DBC929FD1ABA006EE7C2 /* ScanButton.swift in Sources */,
 				E5EB3C4529F902D3006A0444 /* MainMenuView.swift in Sources */,
 				E5EB3C5629F9047E006A0444 /* HowToView.swift in Sources */,
 				E5EB3C1D29F8FF2C006A0444 /* Experience.rcproject in Sources */,
