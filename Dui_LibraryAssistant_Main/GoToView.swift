@@ -23,27 +23,32 @@ struct GoToView: View {
                     .font(.largeTitle)
                     .multilineTextAlignment(.center)
                     .padding(.vertical, 30)
+                    .foregroundColor(Color.black)
                 
                 Text("Head up to the 2nd floor of Albertsons Library.")
                     .multilineTextAlignment(.center)
                     .font(.title2)
                     .padding(.vertical, 5)
+                    .foregroundColor(Color.black)
                 
                 Text("Follow the green arrows.")
                     .multilineTextAlignment(.center)
                     .font(.title2)
                     .padding(.vertical, 5)
+                    .foregroundColor(Color.black)
                 
                 Image("albertsons_library_1x")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 1000, height: 400)
+                    
                 HStack{
                     Text("Find this label on the side of the bookshelf.")
                         .multilineTextAlignment(.center)
                         .font(.title2)
                         .frame(width: 250, height: 250)
                         .padding(.horizontal, 10)
+                        .foregroundColor(Color.black)
                     
                     Image("bookshelf_Anchor")
                         .resizable()
@@ -55,6 +60,7 @@ struct GoToView: View {
                 Text("At the label?")
                     .multilineTextAlignment(.center)
                     .font(.title)
+                    .foregroundColor(Color.black)
                 
                 NavigationLink(destination: AtAnchorView(findBook: $findBook)) { Text("Yes")
                         .cornerRadius(15)

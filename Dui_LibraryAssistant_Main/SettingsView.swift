@@ -17,6 +17,7 @@ struct SettingsView: View {
                 Text("Visual Settings")
                     .font(.largeTitle)
                     .multilineTextAlignment(.center)
+                    .foregroundColor(Color.black)
                     
                 Spacer()
                

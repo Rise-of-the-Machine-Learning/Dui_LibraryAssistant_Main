@@ -23,11 +23,13 @@ struct AboutView: View {
                     .font(.title2)
                     .padding(.vertical, 30)
                     .padding(.horizontal, -10)
+                    .foregroundColor(Color.black)
                 Text("Named after Melvil Dewey, creater of the Dewey Decimal Classification used in libraries worldwide.")
                     .multilineTextAlignment(.leading)
                     .font(.title2)
                     .padding(.vertical, 30)
                     .padding(.horizontal, -10)
+                    .foregroundColor(Color.black)
             
                 VStack{
                     
@@ -44,6 +46,7 @@ struct AboutView: View {
                 }
                 .font(.title3)
                 .padding(20)
+                .foregroundColor(Color.black)
                 
             }       .padding(50)
         }

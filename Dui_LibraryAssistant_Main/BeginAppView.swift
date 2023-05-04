@@ -17,6 +17,7 @@ struct BeginAppView: View {
                 Text("How do you want to find your book?")
                     .font(.largeTitle)
                     .multilineTextAlignment(.center)
+                    .foregroundColor(Color.black)
                 Spacer()
                 
                 NavigationLink(destination:AudioSearchView()){

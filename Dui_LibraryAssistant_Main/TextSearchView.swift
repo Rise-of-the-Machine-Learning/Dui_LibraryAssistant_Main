@@ -22,11 +22,13 @@ struct TextSearchView: View {
                 Text("Type in book you are looking for:")
                     .font(.largeTitle)
                     .multilineTextAlignment(.center)
+                    .foregroundColor(Color.black)
                 
                 TextField("Enter name", text: $findBook)
                     .padding(50)
                     .font(.title)
                     .multilineTextAlignment(.center)
+                    .foregroundColor(Color.black)
                 Spacer()
                 
                 NavigationLink(destination: TitleEnteredView(findBook: Binding(projectedValue: $findBook)))

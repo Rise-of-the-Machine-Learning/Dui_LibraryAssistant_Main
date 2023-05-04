@@ -23,6 +23,7 @@ struct TitleEnteredView: View {
                     .foregroundColor(Color.black)
                     .padding(.vertical, 30)
                     .offset(y: 130)
+            
                 Text("\(findBook)?")
                     .font(.largeTitle)
                     .multilineTextAlignment(.center)
