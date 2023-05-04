@@ -32,7 +32,9 @@ struct AudioSearchView: View {
                 Spacer()
                 Image(isRecording ? "icon_mic2" : "icon_mic")
                     .resizable()
-                    .frame(width:100, height:200)
+                    .scaledToFit()
+                    .frame(width:200, height:200)
+                    
                 Spacer()
                 Button(action: {
                     if !isRecording {
@@ -68,6 +70,7 @@ struct AudioSearchView: View {
                     .background(Color(red: 0.44, green: 0.05, blue: 0.48))
                         .cornerRadius(15)
                         .padding(.maximum(20,0))
+                        .padding(.vertical, 30)
                 
             }
             

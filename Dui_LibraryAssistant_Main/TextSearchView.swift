@@ -26,9 +26,7 @@ struct TextSearchView: View {
                 TextField("Enter name", text: $findBook)
                     .padding(50)
                     .font(.title)
-                Spacer()
-                Text("Are you looking for \(findBook)?")
-                    .font(.title)
+                    .multilineTextAlignment(.center)
                 Spacer()
                 
                 NavigationLink(destination: TitleEnteredView(findBook: Binding(projectedValue: $findBook)))
@@ -45,6 +43,7 @@ struct TextSearchView: View {
                 .cornerRadius(15)
                 .padding(.maximum(10,0))
                 .offset(y: -130)
+                Spacer()
                
             }
         }

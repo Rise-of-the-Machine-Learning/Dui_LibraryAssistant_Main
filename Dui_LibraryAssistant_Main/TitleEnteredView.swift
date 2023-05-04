@@ -16,39 +16,51 @@ struct TitleEnteredView: View {
             Color(red: 0.99, green: 0.96, blue: 0.9)
                 .ignoresSafeArea()
             VStack{
-                Spacer()
-                Text("Are you searching for \(findBook)?")
+                
+                Text("Are you searching for:")
                     .font(.largeTitle)
                     .multilineTextAlignment(.center)
                     .foregroundColor(Color.black)
+                    .padding(.vertical, 30)
+                    .offset(y: 130)
+                Text("\(findBook)?")
+                    .font(.largeTitle)
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(Color(red: 0.44, green: 0.05, blue: 0.48))
                     .padding()
-                Spacer()
-                NavigationLink(destination: GoToView()) { Text("Yes")
-                        .cornerRadius(15)
-                        .padding(.vertical, 30)
-                        .padding(.horizontal, 110)
-                        .font(.largeTitle.weight(.heavy))
-                        .foregroundColor(.white)
-                }
-                .background(Color(red: 0.44, green: 0.05, blue: 0.48))
+                    .offset(y: 130)
+                VStack{
+                    NavigationLink(destination: GoToView()) { Text("Yes")
+                            .cornerRadius(15)
+                            .padding(.vertical, 30)
+                            .padding(.horizontal, 125)
+                            .font(.largeTitle.weight(.heavy))
+                            .foregroundColor(.white)
+                    }
+                    .background(Color(red: 0.44, green: 0.05, blue: 0.48))
                     .cornerRadius(15)
                     .padding(.maximum(20,0))
-                Spacer()
-                //goes to page to show where book is located in library
-                //first by floor     -     by section/room    -    by shelf
-                //directs user to scan QR code of shelf
-                //AR view to search for book!
-                NavigationLink(destination: TextSearchView()){ Text("No")
-                        .cornerRadius(15)
-                        .padding(.vertical, 15)
-                        .padding(.horizontal, 80)
-                        .font(.largeTitle.weight(.heavy))
-                        .foregroundColor(.white)
+                    //.offset(y: 100)
+                    
+                    //goes to page to show where book is located in library
+                    //first by floor     -     by section/room    -    by shelf
+                    //directs user to scan QR code of shelf
+                    //AR view to search for book!
+                    NavigationLink(destination: TextSearchView()){ Text("No")
+                            .cornerRadius(15)
+                            .padding(.vertical, 30)
+                            .padding(.horizontal, 130)
+                            .font(.largeTitle.weight(.heavy))
+                            .foregroundColor(.white)
+                    }
+                    .background(Color(red: 0.729, green: 0.431, blue: 0.075)) // #ba6e13
+                    .cornerRadius(15)
+                    .padding(.maximum(10,0))
+                    //.offset(y: 100)
+                    Spacer()
                 }
-                .background(Color(red: 0.729, green: 0.431, blue: 0.075)) // #ba6e13
-                .cornerRadius(15)
-                .padding(.maximum(10,0))
-                Spacer()
+                .padding(.vertical, 20)
+                .offset(y: 200)
             }
         }
     }
