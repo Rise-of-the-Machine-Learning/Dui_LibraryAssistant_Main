@@ -77,7 +77,16 @@ struct GoToView: View {
                 
                 
                  NavigationStack{
-                 NavigationLink(destination: AudioSearchView()) { Text("Audio Search Test")}
+                 NavigationLink(destination: AudioSearchView()) { Text("Audio Search Test")
+                         .cornerRadius(15)
+                         .padding(.vertical, 15)
+                         .padding(.horizontal, 120)
+                         .font(.largeTitle.weight(.heavy))
+                         .foregroundColor(.white)
+                 }
+                 .background(Color(red: 0.62, green: 0.71, blue: 0.07))
+                 .cornerRadius(15)
+                 .padding(.maximum(10,0))
                  Spacer()
                  }
             }

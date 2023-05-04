@@ -24,6 +24,10 @@ struct ContentView : View {
             Text("Scanned Title: \(scannedText)")
                 .foregroundColor(.black)
                 .font(.largeTitle.weight(.medium))
+            Text("Hold scan button")
+                .foregroundColor(.black)
+                .font(.largeTitle.weight(.medium))
+            
             ScanButton(text: $scannedText, title: $buttonTitle)
                 .padding()
                 .font(.largeTitle.weight(.heavy))
