@@ -30,7 +30,9 @@ struct ARViewContainer: UIViewRepresentable {
         arView.session.delegate = context.coordinator
         
         let initialAnchor = try! Experience.loadInitial()
+        let shelfAnchor = try! Experience.loadInitial()
         
+        shelfAnchor.actions.shelfTarget.onAction = context.coordinator.foundShelf
         
         guard let referenceImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: nil) else {
             fatalError("Missing expected asset catalog resources.")
@@ -43,9 +45,11 @@ struct ARViewContainer: UIViewRepresentable {
         
         
         context.coordinator.scene = initialAnchor
+        context.coordinator.scene = shelfAnchor
         
         // Add objects to scene
         arView.scene.anchors.append(initialAnchor)
+        arView.scene.anchors.append(shelfAnchor)
         
         return arView
         
@@ -68,10 +72,6 @@ class Coordinator:NSObject, ARSessionDelegate
     weak var view:ARView?
     weak var scene: Experience.Initial?
     
-
-    
-    
-    
     func session(_ session: ARSession, didAdd anchors: [ARAnchor]) {
         
         for anchor in anchors
@@ -88,10 +88,19 @@ class Coordinator:NSObject, ARSessionDelegate
                 
             }
         }
+        
+       
     }
-
+    
+    func foundShelf(_ entity: Entity?) {
+        //guard let entity = entity else { return }
+        //do something with entity
+        
+    }
+    
     override init() {
         super.init()
         
     }
     
+}

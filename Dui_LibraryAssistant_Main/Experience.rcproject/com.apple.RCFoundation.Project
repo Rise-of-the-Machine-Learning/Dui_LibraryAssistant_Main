@@ -32,102 +32,22 @@
                                       "configurationBox" : {
                                         "configuration" : {
                                           "target" : [
-                                            "B8FBED94-8F62-4D8F-B761-43BC5BBFA18D",
-                                            "7D37C709-27FA-49F3-9D8C-0500B7A5D14C",
-                                            "80C2D66C-E30A-4CCC-A6F8-E0D54D098DC8"
+                                            "5E401B52-B9A4-4FB3-AA3A-697A43230251"
                                           ],
-                                          "userIdentifier" : "sceneSpawn"
+                                          "userIdentifier" : "shelfTarget"
                                         },
                                         "name" : {
                                           "type" : "custom"
                                         }
                                       },
-                                      "identifier" : "BF28393C-8D67-4B2A-BA7E-4C2E53B650CA",
+                                      "identifier" : "CE827694-2E7A-4EAC-B4BA-64BB16A3F713",
                                       "isEnabled" : true
                                     }
                                   ],
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "B5F0F1D9-CAB5-42F4-9610-749F38998AC4",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        }
-                      ],
-                      "color" : [
-                        0.364705890417099,
-                        0.74117648601531982,
-                        0.69019609689712524,
-                        1
-                      ],
-                      "identifier" : "49B4F1EB-B1BE-49E7-9F4C-9EE361B3B4F4",
-                      "isEnabled" : true,
-                      "isLooping" : false,
-                      "isModal" : false,
-                      "name" : "Behavior",
-                      "triggers" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurationBox" : {
-                                "configuration" : {
-
-                                },
-                                "name" : "start"
-                              },
-                              "identifier" : "56AA52FC-27F6-4E6B-888B-1920DE0891E2",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        }
-                      ]
-                    }
-                  ],
-                  "__version" : 3
-                },
-                {
-                  "__content" : [
-                    {
-                      "accessibility" : {
-                        "__content" : [
-                          {
-                            "isEnabled" : false
-                          }
-                        ],
-                        "__version" : 1
-                      },
-                      "actionGroups" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
-                                          "target" : [
-                                            "B8FBED94-8F62-4D8F-B761-43BC5BBFA18D",
-                                            "7D37C709-27FA-49F3-9D8C-0500B7A5D14C",
-                                            "80C2D66C-E30A-4CCC-A6F8-E0D54D098DC8"
-                                          ],
-                                          "userIdentifier" : "firstArrowShow"
-                                        },
-                                        "name" : {
-                                          "type" : "custom"
-                                        }
-                                      },
-                                      "identifier" : "3DAB10CB-8064-4718-B348-E2CD59DC5557",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "14FB9FB6-042E-4758-B471-C1B736C880BA",
+                              "identifier" : "29A908CB-A817-4521-8B8C-1A6FC8172720",
                               "isEnabled" : true
                             }
                           ],
@@ -140,87 +60,11 @@
                         0.80000001192092896,
                         1
                       ],
-                      "identifier" : "80514D2D-C5A4-4A47-BEC7-7F9A42596795",
+                      "identifier" : "49CA80E7-652C-4D81-94F4-AD0BA9E8F29F",
                       "isEnabled" : true,
                       "isLooping" : false,
                       "isModal" : false,
-                      "name" : "firstArrowShow",
-                      "triggers" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurationBox" : {
-                                "configuration" : {
-                                  "userIdentifier" : "firstArrowShow"
-                                },
-                                "name" : "custom"
-                              },
-                              "identifier" : "4765A243-7A22-4920-A1DB-7CF82190A175",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        }
-                      ]
-                    }
-                  ],
-                  "__version" : 3
-                },
-                {
-                  "__content" : [
-                    {
-                      "accessibility" : {
-                        "__content" : [
-                          {
-                            "isEnabled" : false
-                          }
-                        ],
-                        "__version" : 1
-                      },
-                      "actionGroups" : [
-                        {
-                          "__content" : [
-                            {
-                              "configurations" : [
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
-                                          "target" : [
-
-                                          ],
-                                          "userIdentifier" : "toBoxSelect"
-                                        },
-                                        "name" : {
-                                          "type" : "custom"
-                                        }
-                                      },
-                                      "identifier" : "33D16360-3D3B-403B-9745-34112B74D301",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
-                                }
-                              ],
-                              "identifier" : "970DEBDF-81CB-4B43-931F-1D69967860B9",
-                              "isEnabled" : true
-                            }
-                          ],
-                          "__version" : 1
-                        }
-                      ],
-                      "color" : [
-                        0.49019607901573181,
-                        0.7450980544090271,
-                        0.94901961088180542,
-                        1
-                      ],
-                      "identifier" : "F6EE64D5-9952-421F-ACFA-729CC3FE1EC2",
-                      "isEnabled" : true,
-                      "isLooping" : false,
-                      "isModal" : false,
-                      "name" : "toBoxSelect",
+                      "name" : "shelfTarget",
                       "triggers" : [
                         {
                           "__content" : [
@@ -233,7 +77,7 @@
                                 },
                                 "name" : "tapTarget"
                               },
-                              "identifier" : "CD34651C-3A9E-4941-90AB-A15B35FB69D7",
+                              "identifier" : "85A7C627-2728-4D48-A03A-4B5E83194A61",
                               "isEnabled" : true
                             }
                           ],
@@ -6226,6 +6070,13 @@
                             "typeName" : "UUID",
                             "value" : "5E401B52-B9A4-4FB3-AA3A-697A43230251"
                           }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "shelfTarget"
+                          }
                         ]
                       ]
                     },
@@ -8906,9 +8757,9 @@
                   0.051157519221305847,
                   0.53040456771850586,
                   0,
-                  2.6673340797424316,
-                  0.36057931184768677,
-                  -0.34241259098052979,
+                  2.7226989269256592,
+                  0.28476887941360474,
+                  -0.42342889308929443,
                   1
                 ],
                 "sceneTransform" : [

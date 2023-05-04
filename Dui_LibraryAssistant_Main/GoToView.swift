@@ -64,11 +64,11 @@ struct GoToView: View {
                 Spacer()
                 
                 
-                /*
+                
                  NavigationStack{
                  NavigationLink(destination: AudioSearchView()) { Text("Audio Search Test")}
                  Spacer()
-                 }*/
+                 }
             }
         
         }

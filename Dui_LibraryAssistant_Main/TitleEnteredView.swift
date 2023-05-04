@@ -40,12 +40,8 @@ struct TitleEnteredView: View {
                     .background(Color(red: 0.44, green: 0.05, blue: 0.48))
                     .cornerRadius(15)
                     .padding(.maximum(20,0))
-                    //.offset(y: 100)
                     
-                    //goes to page to show where book is located in library
-                    //first by floor     -     by section/room    -    by shelf
-                    //directs user to scan QR code of shelf
-                    //AR view to search for book!
+              
                     NavigationLink(destination: TextSearchView()){ Text("No")
                             .cornerRadius(15)
                             .padding(.vertical, 30)
@@ -56,7 +52,6 @@ struct TitleEnteredView: View {
                     .background(Color(red: 0.729, green: 0.431, blue: 0.075)) // #ba6e13
                     .cornerRadius(15)
                     .padding(.maximum(10,0))
-                    //.offset(y: 100)
                     Spacer()
                 }
                 .padding(.vertical, 20)
@@ -65,11 +60,6 @@ struct TitleEnteredView: View {
         }
     }
 }
-
-//goes to page to show where book is located in library
-//first by floor     -     by section/room    -    by shelf
-//directs user to scan QR code of shelf
-//AR view to search for book!
 
 /*
  struct TitleEnteredView_Preview: PreviewProvider {
