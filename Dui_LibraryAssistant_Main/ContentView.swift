@@ -10,7 +10,6 @@ import RealityKit
 import ARKit
 import UIKit
 
-
 struct ContentView : View {
     var body: some View {
         ARViewContainer().edgesIgnoringSafeArea(.all)
@@ -93,6 +92,8 @@ class Coordinator:NSObject, ARSessionDelegate
         //let nextARView = ScanBookView(name: "ScanBookView")
         //let viewController = nextARView.instantiateViewController(withIdentifier: "ScanBookView") as! UIView
         //self.navigationController?.pushViewController(viewController, animated: true)
+        
+        //   put code to put into ScanBookView
     }
     
     override init() {

@@ -39,6 +39,8 @@ struct AboutView: View {
                     Text("Blake Hilton")
                     Text("Hayden Dalton")
                     Text("Steve Clowdus")
+                    Text("May 2023")
+                        .padding(.vertical, 10)
                 }
                 .font(.title3)
                 .padding(20)
