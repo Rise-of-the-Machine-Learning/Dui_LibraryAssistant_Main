@@ -26,8 +26,9 @@ struct ContentView : View {
                 .font(.largeTitle.weight(.medium))
             ScanButton(text: $scannedText, title: $buttonTitle)
                 .padding()
+                .font(.largeTitle.weight(.heavy))
             NavigationStack{
-                NavigationLink(destination: MainMenuView()){ Text("Find Another Book")
+                NavigationLink(destination: BeginAppView()){ Text("Find Another Book")
                         .cornerRadius(15)
                         .padding(.vertical, 5)
                         .padding(.horizontal, 100)
