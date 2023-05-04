@@ -62,10 +62,10 @@ class SpeechRecognizer: ObservableObject {
             reset()
         }
     /**
-           Begin transcribing audio.
+           Begins transcribing audio.
         
-           Creates a `SFSpeechRecognitionTask` that transcribes speech to text until you call `stopTranscribing()`.
-           The resulting transcription is continuously written to the published `transcript` property.
+           Creates a task that transcribes speech to text until you tell it to stop with stopTranscribing
+           This transcription is continuously written to the published `transcript` property.
         */
        func transcribe() {
            DispatchQueue(label: "Speech Recognizer Queue", qos: .background).async { [weak self] in
