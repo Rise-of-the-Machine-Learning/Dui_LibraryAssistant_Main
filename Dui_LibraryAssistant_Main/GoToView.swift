@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct GoToView: View {
+    @Binding var findBook: String
+       
+    init(findBook: Binding<String>) {
+        self._findBook = findBook
+    }
     
     var body: some View {
         ZStack{
@@ -51,7 +56,7 @@ struct GoToView: View {
                     .multilineTextAlignment(.center)
                     .font(.title)
                 
-                NavigationLink(destination: AtAnchorView()) { Text("Yes")
+                NavigationLink(destination: AtAnchorView(findBook: $findBook)) { Text("Yes")
                         .cornerRadius(15)
                         .padding(.vertical, 15)
                         .padding(.horizontal, 120)

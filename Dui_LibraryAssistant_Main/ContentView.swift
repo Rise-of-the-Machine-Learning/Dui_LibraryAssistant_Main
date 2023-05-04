@@ -11,9 +11,33 @@ import ARKit
 import UIKit
 
 struct ContentView : View {
+    @State private var scannedText = ""
+    @State private var buttonTitle = "Scan Book"
+    @Binding var findBook : String
     var body: some View {
-        ARViewContainer().edgesIgnoringSafeArea(.all)
-        
+        VStack {
+            
+            ARViewContainer().edgesIgnoringSafeArea(.all)
+            Text("Looking for: \(findBook)")
+                .foregroundColor(.black)
+                .font(.largeTitle.weight(.medium))
+            Text("Scanned Title: \(scannedText)")
+                .foregroundColor(.black)
+                .font(.largeTitle.weight(.medium))
+            ScanButton(text: $scannedText, title: $buttonTitle)
+                .padding()
+            NavigationStack{
+                NavigationLink(destination: MainMenuView()){ Text("Find Another Book")
+                        .cornerRadius(15)
+                        .padding(.vertical, 5)
+                        .padding(.horizontal, 100)
+                        .font(.largeTitle.weight(.heavy))
+                        .foregroundColor(.white)
+                }
+                .background(Color(red: 0.62, green: 0.71, blue: 0.07))
+            }
+        }
+        .background(Color(red: 0.99, green: 0.96, blue: 0.9))
     }
 }
 
@@ -62,6 +86,7 @@ struct ARViewContainer: UIViewRepresentable {
         Coordinator()
     }
 }
+
 
 class Coordinator:NSObject, ARSessionDelegate
 {

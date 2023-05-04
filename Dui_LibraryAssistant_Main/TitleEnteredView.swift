@@ -30,7 +30,7 @@ struct TitleEnteredView: View {
                     .padding()
                     .offset(y: 130)
                 VStack{
-                    NavigationLink(destination: GoToView()) { Text("Yes")
+                    NavigationLink(destination: GoToView(findBook: $findBook)) { Text("Yes")
                             .cornerRadius(15)
                             .padding(.vertical, 30)
                             .padding(.horizontal, 125)

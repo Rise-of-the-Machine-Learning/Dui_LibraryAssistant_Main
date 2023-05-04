@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct AtAnchorView: View {
+    @Binding var findBook: String
+       
+    init(findBook: Binding<String>) {
+        self._findBook = findBook
+    }
+    
     var body: some View {
         ZStack{
             Color(red: 0.99, green: 0.96, blue: 0.9)
@@ -27,7 +33,7 @@ struct AtAnchorView: View {
                     .font(.title)
                     .padding(.vertical, 20)
                 Spacer()
-                NavigationLink(destination: ContentView()) { Text("Ready!")
+                NavigationLink(destination: ContentView(findBook: $findBook)) { Text("Ready!")
                         .cornerRadius(15)
                         .padding(.vertical, 15)
                         .padding(.horizontal, 120)

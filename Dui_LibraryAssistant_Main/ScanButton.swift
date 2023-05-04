@@ -10,7 +10,7 @@ import SwiftUI
 struct ScanButton: UIViewRepresentable {
   @Binding var text: String
   @Binding var title: String
-    
+  
   func makeUIView(context: Context) -> UIButton {
     let textFromCamera = UIAction.captureTextFromCamera(
       responder: context.coordinator,
